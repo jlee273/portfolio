@@ -1,0 +1,83 @@
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: right;
+}
+
+.name {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  overflow: hidden;
+  background-color:rgba(252, 188, 69, 0.548);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+  
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.container
+{
+  margin-top: 10px;
+  color: #fff;
+}
+
+
+img:hover
+{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+div.gallery {
+  margin: 60px;
+  border: 0px solid #ccc;
+  float: right;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 2px solid  white;
+}
+
+div.gallery img {
+  width: 120%;
+  height: auto;
+}
